@@ -1,0 +1,116 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.container{
+    width: 40%;
+    margin: auto;
+}
+
+h1{
+    padding:15px;
+}
+
+.cont{
+    padding-bottom: 40px;
+    border: solid;
+    background-color: plum;
+    text-align: center;
+}
+
+.content{
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+}
+
+button{
+    width: 60px; 
+    font-size: 15px;
+    height: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.addBtn{
+    width: 80px;
+    height: 30px;
+    background-color: gray;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    border: solid;
+    height: 50px;
+    background-color: plum;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.edit{
+    background-color: cornflowerblue;
+}
+
+.delete{
+    background-color: red;
+}
+
+.check{
+    text-decoration: line-through;
+}
+
+.del{
+    display: none;
+}
+
+.search{
+  width: 300px;
+  height: 30px;
+  padding:5px;
+  margin-top: 8px;
+}
+
+.deleteConfirmation{
+    width: 450px;
+    height: 150px;
+    text-align: center;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+
+}
+
+.deleteConfirmation p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.deleteConfirmation button{
+    width: 70px;
+    height: 30px;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
